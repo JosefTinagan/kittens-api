@@ -1,0 +1,7 @@
+<% provide(:submit, "Edit a kitten") %>
+
+<h1>Edit a Kitten</h1>
+
+<%= render 'form' %>
+
+<%= link_to "delete this kitten", @kitten, method: :delete, data: { confirm: "You sure?" } %>
